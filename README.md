@@ -29,7 +29,7 @@ This is an eCommerce Application developed using Flutter . I have tried to colle
 
 :heavy_check_mark: User Authentification and related services\
 :heavy_check_mark: Add your Products\
-:heavy_check_mark: View products added by other users\
+:heavy_check_mark: View products added by users\
 :heavy_check_mark: View products of Different Cateogories\
 :heavy_check_mark: Maintain Cart\
 :heavy_check_mark: Mark products as your favourites\
