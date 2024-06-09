@@ -297,7 +297,7 @@ class _CartPageState extends State<CartPage> {
                                         color: Colors.grey.shade600),
                                   ),
                                   Text(
-                                    "\$ 1499.0",
+                                    "\$ $total",
                                     style: TextStyle(
                                       fontSize: textScaler.scale(16),
                                       letterSpacing: 2,
@@ -368,7 +368,7 @@ class _CartPageState extends State<CartPage> {
                                         fontWeight: FontWeight.bold),
                                   ),
                                   Text(
-                                    "\$ 1609.0",
+                                    "\$ $grossTotal",
                                     style: TextStyle(
                                         fontSize: textScaler.scale(16),
                                         letterSpacing: 2,
