@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-Widget searchProduct(){
+Widget searchProduct({required double h,required double w}){
   return Container(
-                  height: 50,
-                  width: 250,
+                  height: h,
+                  width: w,
                   decoration: const BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.all(Radius.circular(10)),

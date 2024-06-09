@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:outfitopia_clothing_app/screens/myhome.dart';
+import 'package:outfitopia_clothing_app/globals/routes.dart';
 
-void main(){
+void main() {
   runApp(const MyApp());
 }
+
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
@@ -14,9 +15,9 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MyHome(),
+      routes: Routes.myRoutes,
     );
   }
 }
